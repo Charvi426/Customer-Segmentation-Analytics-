@@ -1,2 +1,133 @@
 # Customer-Segmentation-Analytics-
 Consumer behavior analysis and customer segmentation project using Python, PostgreSQL, Power BI, and K-Means clustering to analyze purchasing patterns, customer loyalty, and revenue insights.
+
+## Project Overview
+
+This project analyzes retail customer data to identify purchasing trends, customer loyalty patterns, discount effectiveness, and revenue insights. In addition to SQL-based business analytics, K-Means clustering was applied to segment customers into meaningful behavioral groups.
+
+The project combines:
+- Data Cleaning using Pandas
+- SQL Analysis using PostgreSQL
+- Data Visualization using Power BI
+- K-Means Clustering
+
+---
+
+## Tech Stack
+
+- Python
+- Pandas
+- PostgreSQL
+- Power BI
+- Scikit-learn
+- NumPy
+- Matplotlib
+
+---
+
+## Dataset Features
+
+The dataset contains customer purchase and demographic information such as:
+
+- Customer ID
+- Gender
+- Age Group
+- Category
+- Purchase Amount (USD)
+- Previous Purchases
+- Review Rating
+- Subscription Status
+- Discount Applied
+- Shipping Type
+- Payment Method
+- Frequency of Purchases
+
+---
+
+## Project Workflow
+
+### 1. Data Cleaning & Preprocessing
+- Handled missing values
+- Converted categorical purchase frequency into numerical values
+- Performed feature engineering for clustering
+
+### 2. SQL-Based Consumer Behavior Analysis
+Performed analytical queries in PostgreSQL to analyze:
+- Revenue by gender
+- Revenue by age group
+- Subscription behavior
+- Discount effectiveness
+- Shipping type analysis
+- Top-performing products
+- Customer loyalty patterns
+
+### 3. Dashboard Development
+Built an interactive Power BI dashboard with:
+- Revenue analysis
+- Customer demographics
+- Product insights
+- Subscription analysis
+- Payment and shipping insights
+
+### 4. Customer Segmentation using K-Means
+Applied K-Means clustering using:
+- Purchase Amount
+- Previous Purchases
+- Purchase Frequency
+
+Identified four customer groups:
+- High-Value Loyal Customers
+- Budget Loyal Customers
+- Occasional Premium Buyers
+- Seasonal Customers
+
+Cluster quality was evaluated using the Silhouette Score.
+
+---
+
+## Key Insights
+
+- High-Value Loyal Customers generated the highest revenue and showed the strongest purchase loyalty.
+- Budget Loyal Customers purchased frequently but spent less per transaction.
+- Occasional Premium Buyers made fewer purchases but had higher spending per order.
+- Seasonal Customers exhibited infrequent purchasing behavior.
+
+---
+
+## Dashboard Preview
+
+### Executive Overview Dashboard
+Includes:
+- Total Revenue
+- Customer Demographics
+- Revenue by Category
+- Subscription Analysis
+- Payment & Shipping Insights
+
+### Customer Segmentation Dashboard
+Includes:
+- Revenue by Cluster
+- Customer Count by Cluster
+- Average Purchase Amount by Cluster
+- K-Means Scatter Plot
+- Subscription Analysis by Cluster
+
+---
+
+## Machine Learning Details
+
+### Clustering Algorithm
+- K-Means Clustering
+
+### Features Used
+- Purchase Amount (USD)
+- Previous Purchases
+- Purchase Frequency Days
+
+### Evaluation Metric
+- Silhouette Score: 0.358
+
+
+## Author
+
+Charvi
