@@ -127,6 +127,11 @@ Includes:
 ### Evaluation Metric
 - Silhouette Score: 0.358
 
+### Screenshots
+
+<img width="1111" height="624" alt="image" src="https://github.com/user-attachments/assets/93dd8481-61aa-4a8b-b941-3c4560123124" />
+<img width="1109" height="627" alt="image" src="https://github.com/user-attachments/assets/22198c03-d174-42ee-b7bd-605d93b7cd22" />
+
 
 ## Author
 
