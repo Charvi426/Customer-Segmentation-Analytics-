@@ -75,13 +75,22 @@ Applied K-Means clustering using:
 - Previous Purchases
 - Purchase Frequency
 
+Validation on the current CSV showed that the raw three-feature K-Means setup is the strongest variant for this dataset.
+
+Compared clustering variants:
+- Raw K-Means on the three core features: Silhouette Score 0.521
+- Standardized + log-transformed K-Means: Silhouette Score 0.274
+- Best k from elbow/silhouette sweep: k = 8, Silhouette Score 0.314
+- Best alternative feature combo tested: base features only, Silhouette Score 0.274
+- GMM on the same scaled features: Silhouette Score 0.313
+
 Identified four customer groups:
 - High-Value Loyal Customers
 - Budget Loyal Customers
 - Occasional Premium Buyers
 - Seasonal Customers
 
-Cluster quality was evaluated using the Silhouette Score.
+Cluster quality was evaluated using the Silhouette Score. The notebook previously recorded 0.358; the current cleaned data and validation run produced a stronger raw baseline of 0.521.
 
 ---
 
@@ -125,7 +134,7 @@ Includes:
 - Purchase Frequency Days
 
 ### Evaluation Metric
-- Silhouette Score: 0.358
+- Silhouette Score: 0.521 on the current validated raw baseline
 
 ### Screenshots
 
